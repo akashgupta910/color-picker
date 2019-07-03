@@ -1,5 +1,5 @@
 # UI color-picker
-Best User Interface colors for projects.
+Best User Interface colors for your projects.
 
 With the Greate Color, comes best Design.
 
