@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* --------------------- Navbar ------------------------- */
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    margin-bottom: 3rem;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+
+/* ------------------------- Copy to Clipboard ----------------- */
+
+#clip {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    z-index: 12;
+    display: none;
+}
+
+.alert {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+/* ---------------------- Colors ----------------------- */
+
+.title {
+    margin: 30px 0;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color {
+    height: 180px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 282px;
+    margin: 1.5px 0;
+}
+
+#copy-code {
+    color: #ffffff;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%);
+    letter-spacing: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.5;
+} 
+
+#color-code {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0;
+}
+
+.color:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.2s;
+    transform: scale(1.2);
+    position: relative;
+    z-index: 9;
+}
+
+/* --------------------------------- Media Query --------------------------- */
+ 
+@media (max-width: 990px) 
+{
+    .color 
+    {
+        width: 450px;
+        height: 230px;
+    }
+
+    .color:hover 
+    {
+        transform: scale(1.1);
+    }
+}
+
+/* ------------------------------ Footer --------------------------------- */
+
+footer {
+    text-align: center;
+    background: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+
+footer h5 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer img {
+    width: 50px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Color Picker</title>
+</head>
+
+<body>
+
+    <!-- ----------------------- Navbar ----------------------- -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Color Picker</a>
+            </div>
+        </nav>
+    </section>
+
+    <!-- ------------------------ Copied to Clipboard Text ----------------------- -->
+    <div class="container">
+        <div id="clip">
+            <div class="alert alert-light" role="alert">
+                Copied To Clipboard
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------- Colors ----------------------- -->
+    <section id="color">
+        <div class="container">
+            <!-- Red Color -->
+            <h4 class="title">Red Color Hex Code</h4>
+            <div class="row">
+                <!-- Red Color 1 -->
+                <div class="col-md-3">
+                    <div id="#E71C23" onclick="CopyToClipboard(this.id);" class="color" style="background: #E71C23">
+                        <p id="color-code">#E71C23</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 2 -->
+                <div class="col-md-3">
+                    <div id="#FF3031" onclick="CopyToClipboard(this.id);" class="color" style="background: #FF3031">
+                        <p id="color-code">#FF3031</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 3 -->
+                <div class="col-md-3">
+                    <div id="#D63031" onclick="CopyToClipboard(this.id);" class="color" style="background: #D63031">
+                        <p id="color-code">#D63031</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 4 -->
+                <div class="col-md-3">
+                    <div id="#B83227" onclick="CopyToClipboard(this.id);" class="color" style="background: #B83227">
+                        <p id="color-code">#B83227</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 5 -->
+                <div class="col-md-3">
+                    <div id="#FF4848" onclick="CopyToClipboard(this.id);" class="color" style="background: #FF4848">
+                        <p id="color-code">#FF4848</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 6 -->
+                <div class="col-md-3">
+                    <div id="#EA7773" onclick="CopyToClipboard(this.id);" class="color" style="background: #EA7773">
+                        <p id="color-code">#EA7773</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 7 -->
+                <div class="col-md-3">
+                    <div id="#ec644b" onclick="CopyToClipboard(this.id);" class="color" style="background: #ec644b">
+                        <p id="color-code">#ec644b</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 8 -->
+                <div class="col-md-3">
+                    <div id="#cf000f" onclick="CopyToClipboard(this.id);" class="color" style="background: #cf000f">
+                        <p id="color-code">#cf000f</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 9 -->
+                <div class="col-md-3">
+                    <div id="#f03434" onclick="CopyToClipboard(this.id);" class="color" style="background: #f03434">
+                        <p id="color-code">#f03434</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 10 -->
+                <div class="col-md-3">
+                    <div id="#d91e18" onclick="CopyToClipboard(this.id);" class="color" style="background: #d91e18">
+                        <p id="color-code">#d91e18</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 11 -->
+                <div class="col-md-3">
+                    <div id="#96281b" onclick="CopyToClipboard(this.id);" class="color" style="background: #96281b">
+                        <p id="color-code">#96281b</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Red Color 12 -->
+                <div class="col-md-3">
+                    <div id="#E84342" onclick="CopyToClipboard(this.id);" class="color" style="background: #E84342">
+                        <p id="color-code">#E84342</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="title">Green Color Hex Code</h4>
+            <div class="row">
+                <!-- Green Color 1 -->
+                <div class="col-md-3">
+                    <div id="#45CE30" onclick="CopyToClipboard(this.id);" class="color" style="background: #45CE30">
+                        <p id="color-code">#45CE30</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 2 -->
+                <div class="col-md-3">
+                    <div id="#26ae60" onclick="CopyToClipboard(this.id);" class="color" style="background: #26ae60">
+                        <p id="color-code">#26ae60</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 3 -->
+                <div class="col-md-3">
+                    <div id="#2ecc72" onclick="CopyToClipboard(this.id);" class="color" style="background: #2ecc72">
+                        <p id="color-code">#2ecc72</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 4 -->
+                <div class="col-md-3">
+                    <div id="#7CEC9F" onclick="CopyToClipboard(this.id);" class="color" style="background: #7CEC9F">
+                        <p id="color-code">#7CEC9F</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 5 -->
+                <div class="col-md-3">
+                    <div id="#c8f7c5" onclick="CopyToClipboard(this.id);" class="color" style="background: #c8f7c5">
+                        <p id="color-code">#c8f7c5</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 6 -->
+                <div class="col-md-3">
+                    <div id="#2abb9b" onclick="CopyToClipboard(this.id);" class="color" style="background: #2abb9b">
+                        <p id="color-code">#2abb9b</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 7 -->
+                <div class="col-md-3">
+                    <div id="#16a085" onclick="CopyToClipboard(this.id);" class="color" style="background: #16a085">
+                        <p id="color-code">#16a085</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 8 -->
+                <div class="col-md-3">
+                    <div id="#66cc99" onclick="CopyToClipboard(this.id);" class="color" style="background: #66cc99">
+                        <p id="color-code">#66cc99</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 9 -->
+                <div class="col-md-3">
+                    <div id="#A3CB37" onclick="CopyToClipboard(this.id);" class="color" style="background: #A3CB37">
+                        <p id="color-code">#A3CB37</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 10 -->
+                <div class="col-md-3">
+                    <div id="#019031" onclick="CopyToClipboard(this.id);" class="color" style="background: #019031">
+                        <p id="color-code">#019031</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 11 -->
+                <div class="col-md-3">
+                    <div id="#218F76" onclick="CopyToClipboard(this.id);" class="color" style="background: #218F76">
+                        <p id="color-code">#218F76</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Green Color 12 -->
+                <div class="col-md-3">
+                    <div id="#00b16a" onclick="CopyToClipboard(this.id);" class="color" style="background: #00b16a">
+                        <p id="color-code">#00b16a</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blue Color -->
+            <h4 class="title">Blue Color Hex Code</h4>
+            <div class="row">
+                <!-- Blue Color 1 -->
+                <div class="col-md-3">
+                    <div id="#74B9FF" onclick="CopyToClipboard(this.id);" class="color" style="background: #74B9FF">
+                        <p id="color-code">#74B9FF</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 2 -->
+                <div class="col-md-3">
+                    <div id="#2475B0" onclick="CopyToClipboard(this.id);" class="color" style="background: #2475B0">
+                        <p id="color-code">#2475B0</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 3 -->
+                <div class="col-md-3">
+                    <div id="#0A79DF" onclick="CopyToClipboard(this.id);" class="color" style="background: #0A79DF">
+                        <p id="color-code">#0A79DF</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 4 -->
+                <div class="col-md-3">
+                    <div id="#3C40C6" onclick="CopyToClipboard(this.id);" class="color" style="background: #3C40C6">
+                        <p id="color-code">#3C40C6</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 5 -->
+                <div class="col-md-3">
+                    <div id="#0ABDE3" onclick="CopyToClipboard(this.id);" class="color" style="background: #0ABDE3">
+                        <p id="color-code">#0ABDE3</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 6 -->
+                <div class="col-md-3">
+                    <div id="#4BCFFA" onclick="CopyToClipboard(this.id);" class="color" style="background: #4BCFFA">
+                        <p id="color-code">#4BCFFA</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 7 -->
+                <div class="col-md-3">
+                    <div id="#487EB0" onclick="CopyToClipboard(this.id);" class="color" style="background: #487EB0">
+                        <p id="color-code">#487EB0</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 8 -->
+                <div class="col-md-3">
+                    <div id="#c5eff7" onclick="CopyToClipboard(this.id);" class="color" style="background: #c5eff7">
+                        <p id="color-code">#c5eff7</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 9 -->
+                <div class="col-md-3">
+                    <div id="#52b3d9" onclick="CopyToClipboard(this.id);" class="color" style="background: #52b3d9">
+                        <p id="color-code">#52b3d9</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 10 -->
+                <div class="col-md-3">
+                    <div id="#3498db" onclick="CopyToClipboard(this.id);" class="color" style="background: #3498db">
+                        <p id="color-code">#3498db</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 11 -->
+                <div class="col-md-3">
+                    <div id="#446cb3" onclick="CopyToClipboard(this.id);" class="color" style="background: #446cb3">
+                        <p id="color-code">#446cb3</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Blue Color 12 -->
+                <div class="col-md-3">
+                    <div id="#3a539b" onclick="CopyToClipboard(this.id);" class="color" style="background: #3a539b">
+                        <p id="color-code">#3a539b</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grey Color -->
+            <h4 class="title">Grey Color Hex Code</h4>
+            <div class="row">
+                <!-- Grey Color 1 -->
+                <div class="col-md-3">
+                    <div id="#DAE0E2" onclick="CopyToClipboard(this.id);" class="color" style="background: #DAE0E2">
+                        <p id="color-code">#DAE0E2</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 2 -->
+                <div class="col-md-3">
+                    <div id="#99AAAB" onclick="CopyToClipboard(this.id);" class="color" style="background: #99AAAB">
+                        <p id="color-code">#99AAAB</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 3 -->
+                <div class="col-md-3">
+                    <div id="#8395A7" onclick="CopyToClipboard(this.id);" class="color" style="background: #8395A7">
+                        <p id="color-code">#8395A7</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 4 -->
+                <div class="col-md-3">
+                    <div id="#efefef" onclick="CopyToClipboard(this.id);" class="color" style="background: #efefef">
+                        <p id="color-code">#efefef</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 5 -->
+                <div class="col-md-3">
+                    <div id="#47535E" onclick="CopyToClipboard(this.id);" class="color" style="background: #47535E">
+                        <p id="color-code">#47535E</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 6 -->
+                <div class="col-md-3">
+                    <div id="#2C3335" onclick="CopyToClipboard(this.id);" class="color" style="background: #2C3335">
+                        <p id="color-code">#2C3335</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 7 -->
+                <div class="col-md-3">
+                    <div id="#7B8788" onclick="CopyToClipboard(this.id);" class="color" style="background: #7B8788">
+                        <p id="color-code">#7B8788</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 8 -->
+                <div class="col-md-3">
+                    <div id="#616C6F" onclick="CopyToClipboard(this.id);" class="color" style="background: #616C6F">
+                        <p id="color-code">#616C6F</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 9 -->
+                <div class="col-md-3">
+                    <div id="#d2d7d3" onclick="CopyToClipboard(this.id);" class="color" style="background: #d2d7d3">
+                        <p id="color-code">#d2d7d3</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 10 -->
+                <div class="col-md-3">
+                    <div id="#95a5a6" onclick="CopyToClipboard(this.id);" class="color" style="background: #95a5a6">
+                        <p id="color-code">#95a5a6</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 11 -->
+                <div class="col-md-3">
+                    <div id="#abb7b7" onclick="CopyToClipboard(this.id);" class="color" style="background: #abb7b7">
+                        <p id="color-code">#abb7b7</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- Grey Color 12 -->
+                <div class="col-md-3">
+                    <div id="#e4e9ed" onclick="CopyToClipboard(this.id);" class="color" style="background: #e4e9ed">
+                        <p id="color-code">#e4e9ed</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yellow Color -->
+            <h4 class="title">Yellow Color Hex Code</h4>
+            <div class="row">
+                <!-- yellow Color 1 -->
+                <div class="col-md-3">
+                    <div id="#F4C724" onclick="CopyToClipboard(this.id);" class="color" style="background: #F4C724">
+                        <p id="color-code">#F4C724</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 2 -->
+                <div class="col-md-3">
+                    <div id="#FAD02E" onclick="CopyToClipboard(this.id);" class="color" style="background: #FAD02E">
+                        <p id="color-code">#FAD02E</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 3 -->
+                <div class="col-md-3">
+                    <div id="#FFF222" onclick="CopyToClipboard(this.id);" class="color" style="background: #FFF222">
+                        <p id="color-code">#FFF222</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 4 -->
+                <div class="col-md-3">
+                    <div id="#FAC42F" onclick="CopyToClipboard(this.id);" class="color" style="background: #FAC42F">
+                        <p id="color-code">#FAC42F</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 5 -->
+                <div class="col-md-3">
+                    <div id="#F3B63A" onclick="CopyToClipboard(this.id);" class="color" style="background: #F3B63A">
+                        <p id="color-code">#F3B63A</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 6 -->
+                <div class="col-md-3">
+                    <div id="#EEC213" onclick="CopyToClipboard(this.id);" class="color" style="background: #EEC213">
+                        <p id="color-code">#EEC213</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 7 -->
+                <div class="col-md-3">
+                    <div id="#FBD28B" onclick="CopyToClipboard(this.id);" class="color" style="background: #FBD28B">
+                        <p id="color-code">#FBD28B</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 8 -->
+                <div class="col-md-3">
+                    <div id="#F5C469" onclick="CopyToClipboard(this.id);" class="color" style="background: #F5C469">
+                        <p id="color-code">#F5C469</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 9 -->
+                <div class="col-md-3">
+                    <div id="#f4d03f" onclick="CopyToClipboard(this.id);" class="color" style="background: #f4d03f">
+                        <p id="color-code">#f4d03f</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 10 -->
+                <div class="col-md-3">
+                    <div id="#fff68f" onclick="CopyToClipboard(this.id);" class="color" style="background: #fff68f">
+                        <p id="color-code">#fff68f</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 11 -->
+                <div class="col-md-3">
+                    <div id="#ffff7e" onclick="CopyToClipboard(this.id);" class="color" style="background: #ffff7e">
+                        <p id="color-code">#ffff7e</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- yellow Color 12 -->
+                <div class="col-md-3">
+                    <div id="#F3B431" onclick="CopyToClipboard(this.id);" class="color" style="background: #F3B431">
+                        <p id="color-code">#F3B431</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Color -->
+            <h4 class="title">Other Best Color Hex Code</h4>
+            <div class="row">
+                <!-- other Color 1 -->
+                <div class="col-md-3">
+                    <div id="#EA7773" onclick="CopyToClipboard(this.id);" class="color" style="background: #EA7773">
+                        <p id="color-code">#EA7773</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 2 -->
+                <div class="col-md-3">
+                    <div id="#f2784b" onclick="CopyToClipboard(this.id);" class="color" style="background: #f2784b">
+                        <p id="color-code">#f2784b</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 3 -->
+                <div class="col-md-3">
+                    <div id="#E74292" onclick="CopyToClipboard(this.id);" class="color" style="background: #E74292">
+                        <p id="color-code">#E74292</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 4 -->
+                <div class="col-md-3">
+                    <div id="#F5BCBA" onclick="CopyToClipboard(this.id);" class="color" style="background: #F5BCBA">
+                        <p id="color-code">#F5BCBA</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 5 -->
+                <div class="col-md-3">
+                    <div id="#1287A5" onclick="CopyToClipboard(this.id);" class="color" style="background: #1287A5">
+                        <p id="color-code">#1287A5</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 6 -->
+                <div class="col-md-3">
+                    <div id="#00CCCD" onclick="CopyToClipboard(this.id);" class="color" style="background: #00CCCD">
+                        <p id="color-code">#00CCCD</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 7 -->
+                <div class="col-md-3">
+                    <div id="#EAF0F1" onclick="CopyToClipboard(this.id);" class="color" style="background: #EAF0F1">
+                        <p id="color-code">#EAF0F1</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 8 -->
+                <div class="col-md-3">
+                    <div id="#BB2CD9" onclick="CopyToClipboard(this.id);" class="color" style="background: #BB2CD9">
+                        <p id="color-code">#BB2CD9</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 9 -->
+                <div class="col-md-3">
+                    <div id="#2B2B52" onclick="CopyToClipboard(this.id);" class="color" style="background: #2B2B52">
+                        <p id="color-code">#2B2B52</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 10 -->
+                <div class="col-md-3">
+                    <div id="#a537fd" onclick="CopyToClipboard(this.id);" class="color" style="background: #a537fd">
+                        <p id="color-code">#a537fd</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 11 -->
+                <div class="col-md-3">
+                    <div id="#736598" onclick="CopyToClipboard(this.id);" class="color" style="background: #736598">
+                        <p id="color-code">#736598</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+                <!-- other Color 12 -->
+                <div class="col-md-3">
+                    <div id="#fde3a7" onclick="CopyToClipboard(this.id);" class="color" style="background: #fde3a7">
+                        <p id="color-code">#fde3a7</p>
+                        <p id="copy-code">Click to Copy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------ Footer ----------------------- -->
+    <footer>
+        <img src="Image/my_logo.jpg">
+        <h5>Created and Designed by Me Akash Gupta</h5>
+    </footer>
+
+    <!-- app.js -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
